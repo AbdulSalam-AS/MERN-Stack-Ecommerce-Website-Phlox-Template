@@ -1,0 +1,188 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   README.md
+#	new file:   backend/app.js
+#	new file:   backend/config/database.js
+#	new file:   backend/controller/orderController.js
+#	new file:   backend/controller/paymentController.js
+#	new file:   backend/controller/productController.js
+#	new file:   backend/controller/userController.js
+#	new file:   backend/middleware/auth.js
+#	new file:   backend/middleware/catchAsyncErrors.js
+#	new file:   backend/middleware/error.js
+#	new file:   backend/models/orderModel.js
+#	new file:   backend/models/productModel.js
+#	new file:   backend/models/userModels.js
+#	new file:   backend/routes/orderRoutes.js
+#	new file:   backend/routes/paymentRoute.js
+#	new file:   backend/routes/productRoute.js
+#	new file:   backend/routes/userRoutes.js
+#	new file:   backend/server.js
+#	new file:   backend/utils/apiFeatures.js
+#	new file:   backend/utils/errorHandler.js
+#	new file:   backend/utils/jwtToken.js
+#	new file:   backend/utils/sendEmail.js
+#	new file:   frontend/.gitignore
+#	new file:   frontend/README.md
+#	new file:   frontend/eslint.config.js
+#	new file:   frontend/index.html
+#	new file:   frontend/package-lock.json
+#	new file:   frontend/package.json
+#	new file:   frontend/public/No_Product_Image.png
+#	new file:   frontend/public/Profile.png
+#	new file:   frontend/public/images/products/1.jpg
+#	new file:   frontend/public/images/products/1phone.jfif
+#	new file:   frontend/public/images/products/1shoe.jfif
+#	new file:   frontend/public/images/products/2.jpg
+#	new file:   frontend/public/images/products/2phone.jfif
+#	new file:   frontend/public/images/products/2shoe.jfif
+#	new file:   frontend/public/images/products/3.jpg
+#	new file:   frontend/public/images/products/3phone.jfif
+#	new file:   frontend/public/images/products/3shoe.jfif
+#	new file:   frontend/public/images/products/4.jpg
+#	new file:   frontend/public/images/products/4phone.jfif
+#	new file:   frontend/public/images/products/4shoe.jfif
+#	new file:   frontend/public/images/products/5phone.jfif
+#	new file:   frontend/public/images/products/5shoe.jfif
+#	new file:   frontend/public/images/products/Trigger-Unisex-Shoes (1).jfif
+#	new file:   frontend/public/images/products/Trigger-Unisex-Shoes (2).jfif
+#	new file:   frontend/public/images/products/Trigger-Unisex-Shoes (3).jfif
+#	new file:   frontend/public/images/products/Trigger-Unisex-Shoes (4).jfif
+#	new file:   frontend/public/images/products/Trigger-Unisex-Shoes.jfif
+#	new file:   frontend/public/images/products/attire 1.webp
+#	new file:   frontend/public/images/products/attire 2.webp
+#	new file:   frontend/public/images/products/attire 3.webp
+#	new file:   frontend/public/images/products/attire 4.webp
+#	new file:   frontend/public/images/products/attire 5.webp
+#	new file:   frontend/public/images/products/camera 1.jpg
+#	new file:   frontend/public/images/products/camera 10.jpg
+#	new file:   frontend/public/images/products/camera 11.jpg
+#	new file:   frontend/public/images/products/camera 2.jpg
+#	new file:   frontend/public/images/products/camera 3.jpg
+#	new file:   frontend/public/images/products/camera 4.jpg
+#	new file:   frontend/public/images/products/camera 5.jpg
+#	new file:   frontend/public/images/products/camera 6.jpg
+#	new file:   frontend/public/images/products/camera 7.jpg
+#	new file:   frontend/public/images/products/camera 8.jpg
+#	new file:   frontend/public/images/products/camera 9.jpg
+#	new file:   frontend/public/images/products/hipster-958805_1920.jpg
+#	new file:   frontend/public/images/products/jeans1.jpg
+#	new file:   frontend/public/images/products/jeans2.jpg
+#	new file:   frontend/public/images/products/jeans3.jpg
+#	new file:   frontend/public/images/products/mi 0.5.jpeg
+#	new file:   frontend/public/images/products/mi 0.8.jpeg
+#	new file:   frontend/public/images/products/mi 1.jpeg
+#	new file:   frontend/public/images/products/mi 2.jpeg
+#	new file:   frontend/public/images/products/mi 5.jpeg
+#	new file:   frontend/public/images/products/mi 6.jpeg
+#	new file:   frontend/public/images/products/top1.jpg
+#	new file:   frontend/public/images/products/top2.jpg
+#	new file:   frontend/public/images/products/top3.jpg
+#	new file:   frontend/public/images/products/top4.jpg
+#	new file:   frontend/public/images/products/top5.jpg
+#	new file:   frontend/public/profilePic.jpg
+#	new file:   frontend/src/App.css
+#	new file:   frontend/src/App.jsx
+#	new file:   frontend/src/component/Cart/Cart.css
+#	new file:   frontend/src/component/Cart/Cart.jsx
+#	new file:   frontend/src/component/Cart/CartItemCard.css
+#	new file:   frontend/src/component/Cart/CartItemCard.jsx
+#	new file:   frontend/src/component/Cart/Checkout.css
+#	new file:   frontend/src/component/Cart/CheckoutSteps.jsx
+#	new file:   frontend/src/component/Cart/ConfirmOrder.css
+#	new file:   frontend/src/component/Cart/ConfirmOrder.jsx
+#	new file:   frontend/src/component/Cart/OrderSuccess.css
+#	new file:   frontend/src/component/Cart/OrderSuccess.jsx
+#	new file:   frontend/src/component/Cart/Payment.css
+#	new file:   frontend/src/component/Cart/Payment.jsx
+#	new file:   frontend/src/component/Cart/Shipping.css
+#	new file:   frontend/src/component/Cart/Shipping.jsx
+#	new file:   frontend/src/component/Home/Home.css
+#	new file:   frontend/src/component/Home/Home.jsx
+#	new file:   frontend/src/component/Home/ProductCard.jsx
+#	new file:   frontend/src/component/Order/MyOrders.jsx
+#	new file:   frontend/src/component/Order/OrderDetails.css
+#	new file:   frontend/src/component/Order/OrderDetails.jsx
+#	new file:   frontend/src/component/Order/myOrders.css
+#	new file:   frontend/src/component/Route/ProtectedRoute.jsx
+#	new file:   frontend/src/component/User/ForgotPassword.css
+#	new file:   frontend/src/component/User/ForgotPassword.jsx
+#	new file:   frontend/src/component/User/LoginSignUp.css
+#	new file:   frontend/src/component/User/LoginSignUp.jsx
+#	new file:   frontend/src/component/User/Profile.css
+#	new file:   frontend/src/component/User/Profile.jsx
+#	new file:   frontend/src/component/User/ResetPassword.css
+#	new file:   frontend/src/component/User/ResetPassword.jsx
+#	new file:   frontend/src/component/User/UpdatePassword.css
+#	new file:   frontend/src/component/User/UpdatePassword.jsx
+#	new file:   frontend/src/component/User/UpdateProfile.css
+#	new file:   frontend/src/component/User/UpdateProfile.jsx
+#	new file:   frontend/src/component/admin/Dashboard.jsx
+#	new file:   frontend/src/component/admin/NewProduct.jsx
+#	new file:   frontend/src/component/admin/OrderList.jsx
+#	new file:   frontend/src/component/admin/ProcessOrder.jsx
+#	new file:   frontend/src/component/admin/ProductList.jsx
+#	new file:   frontend/src/component/admin/ProductReviews.jsx
+#	new file:   frontend/src/component/admin/Sidebar.jsx
+#	new file:   frontend/src/component/admin/UpdateProduct.css
+#	new file:   frontend/src/component/admin/UpdateProduct.jsx
+#	new file:   frontend/src/component/admin/UpdateUser.jsx
+#	new file:   frontend/src/component/admin/UsersList.jsx
+#	new file:   frontend/src/component/admin/dashboard.css
+#	new file:   frontend/src/component/admin/newProduct.css
+#	new file:   frontend/src/component/admin/processOrder.css
+#	new file:   frontend/src/component/admin/productList.css
+#	new file:   frontend/src/component/admin/productReviews.css
+#	new file:   frontend/src/component/admin/sidebar.css
+#	new file:   frontend/src/component/layout/Footer/Footer.css
+#	new file:   frontend/src/component/layout/Footer/Footer.jsx
+#	new file:   frontend/src/component/layout/Header/Header.css
+#	new file:   frontend/src/component/layout/Header/Header.jsx
+#	new file:   frontend/src/component/layout/Header/UserOptions.jsx
+#	new file:   frontend/src/component/layout/Loader/Loader.css
+#	new file:   frontend/src/component/layout/Loader/Loader.jsx
+#	new file:   frontend/src/component/layout/MetaData.jsx
+#	new file:   frontend/src/component/layout/Not Found/NotFound.css
+#	new file:   frontend/src/component/layout/Not Found/NotFound.jsx
+#	new file:   frontend/src/component/product/Product.css
+#	new file:   frontend/src/component/product/ProductDetails.css
+#	new file:   frontend/src/component/product/ProductDetails.jsx
+#	new file:   frontend/src/component/product/Products.jsx
+#	new file:   frontend/src/component/product/ReviewCard.jsx
+#	new file:   frontend/src/component/product/Search.css
+#	new file:   frontend/src/component/product/Search.jsx
+#	new file:   frontend/src/images/Appstore.png
+#	new file:   frontend/src/images/Profile.png
+#	new file:   frontend/src/images/cover.jfif
+#	new file:   frontend/src/images/cursor.png
+#	new file:   frontend/src/images/logo.png
+#	new file:   frontend/src/images/playstore.png
+#	new file:   frontend/src/main.jsx
+#	new file:   frontend/src/store/actions/cartAction.js
+#	new file:   frontend/src/store/actions/orderAction.js
+#	new file:   frontend/src/store/actions/productAction.js
+#	new file:   frontend/src/store/actions/reviewAction.js
+#	new file:   frontend/src/store/actions/userAction.js
+#	new file:   frontend/src/store/constants/cartConstants.js
+#	new file:   frontend/src/store/constants/orderConstants.js
+#	new file:   frontend/src/store/constants/productConstants.js
+#	new file:   frontend/src/store/constants/reviewConstants.js
+#	new file:   frontend/src/store/constants/userConstants.js
+#	new file:   frontend/src/store/reducers/cartReducer.js
+#	new file:   frontend/src/store/reducers/orderReducer.js
+#	new file:   frontend/src/store/reducers/productReducer.js
+#	new file:   frontend/src/store/reducers/reviewReducer.js
+#	new file:   frontend/src/store/reducers/userReducer.js
+#	new file:   frontend/src/store/store.js
+#	new file:   frontend/vite.config.js
+#	new file:   package-lock.json
+#	new file:   package.json
+#
